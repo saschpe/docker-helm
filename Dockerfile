@@ -10,7 +10,7 @@
 #   $ ./scripts/build --base 3.18
 #
 
-ARG base=3.18.6
+ARG base=4.0.0
 
 FROM alpine/helm:${base}
 LABEL maintainer="Sascha Peilicke <sascha@peilicke.de"
