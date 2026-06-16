@@ -7,10 +7,10 @@
 #
 # Build with custom arguments:
 #
-#   $ ./scripts/build --base 4.2.0
+#   $ ./scripts/build --base 4.2.1
 #
 
-ARG base=4.2.0
+ARG base=4.2.1
 
 FROM alpine/helm:${base}
 LABEL maintainer="Sascha Peilicke <sascha@peilicke.de"
