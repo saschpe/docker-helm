@@ -10,7 +10,7 @@ Helm OCI container image with pre-installed OpenSSL based on Alpine Linux.
 ## Usage
 
 ```shell
-docker run --rm saschpe/helm:4.2.1 version
+docker run --rm saschpe/helm:4.2.2 version
 ```
 
 ## Building
